@@ -191,8 +191,20 @@ D=100
 T=15
 S=D/T
 print(S)
-
-       
+#swap
+a=5
+b=20
+print(a,b)
+a=a+b
+b=a-b
+a=a-b
+print (a,b)
+a=5
+b=3
+a=a^b
+b=a^b
+a=a^b
+print(a,b)  
    
 
 
