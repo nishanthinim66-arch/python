@@ -1,0 +1,92 @@
+#task-2
+#1.Check if a number is even or odd
+a=6
+if ((a&1)==0):
+    print("a is even no.")
+else:
+    print("odd number")
+#2.Write a program to check if a number is positive, negative if not print zero
+
+a=-6
+if a>0:
+    print("positive")
+elif a<0:
+    print("negative")
+else:
+        print("zero")
+
+#3.Check if the number is divisible by both 2 and 5, and display the result
+a=14
+if a%2==0 and a%5==0:
+    print("divisible by both")
+else:
+    print("not divisible by both")
+
+#4.Input marks of a student with a 5 grades
+mark=int(input("enter a marks"))
+if mark>=90:
+    print("grade a")
+elif mark>=70:
+    print("grade b")
+elif mark>65:
+    print("grade c")
+elif mark>=50:
+    print("grade d")
+else:
+    print("low")
+
+#5.leap year Input a year and check if it’s a Leap Year using nested conditions:
+#If divisible by 4 → check divisible by 100 → then check divisible by 400.
+
+y = 2000
+
+if y % 4 == 0:
+    if y % 100 == 0:
+        if y % 400 == 0:
+            print("Leap year")
+        else:
+            print("Not a leap year")
+    else:
+        print("Leap year")
+else:
+    print("Not a leap year")
+x=2013
+if x%4==0:
+    if x%100==0:
+        if x%400==0:
+            print("leap year")
+        else:
+            print("not a leap year")
+    else:
+        print("Leap year")
+else:
+    print("Not a leap year")
+
+#loop
+#for loop increment
+
+for i in range(1,11):
+    print(i)
+#7
+for i in range(1,no.+1):
+    f*=1
+    print(f)
+#8
+for i in range(10,1,-1):
+    print(i)
+#9
+age=int(input("enter your agee"))
+if age<=12:
+    print("child")
+elif age>13<19:
+    print("teen")
+elif age>20<59:
+    print("adult")
+else:
+    print("senior")'''
+#10
+a=int(input("enter a number"))
+if a**3>=100:
+    print("above")
+else:
+    print("below")
