@@ -1,0 +1,227 @@
+#fundamentals
+'''a=3
+print(a)
+print(type(a))
+name="nisha"
+print(name)
+print(type(name))
+a=3.9
+print(a)
+print(type(a))
+a=3+6j
+print(a)
+print(type(a))
+a=False
+print(a)
+print(type(a))'''
+
+'''a=[1,2,3,4]
+b=[5,6,7,8]
+c=b
+print(a==b)
+print(b==c)
+a="weight55.5"
+print(a)'''
+#keywords
+#help("keywords")
+#operators
+#arithmetic operators
+'''a=22
+z=45 
+print("addition",a+z)
+print("subraction",a-z)
+print("multiplication",a*z)
+print("division",z/a)
+print("floor division",z//a)
+print("modules",z%a)'''
+#relational operators
+'''a=6
+b=9
+c=3
+print(a==b)
+print(a!=b)
+print(a>c)
+print(b>c)
+print(c<a)
+print(a>=c)
+print(b<=c)'''
+#assignment operators
+'''a=5
+print(a)
+a+=2
+print(a)
+a-=4
+print(a)
+a*=10
+print(a)
+a/=2
+print(a)
+a//=2
+print(a)
+a%=3
+print(a)'''
+#logical operators
+'''a=10
+b=30
+print(a==b and b>a)
+print(a!=b and b<a)
+print(a==b or b>a)
+print(a!=b or b<a)
+print(not (a!=b or b<a))
+c=7
+print(a!=b and b<a and b>c)'''
+#bitwise operators
+'''a=9 
+b=3
+print(a&b)
+print(a|b)
+print(a^b)
+print(~a)
+print(b>>1)
+print(b<<2)'''
+#total amount
+'''product=input("enter a product name")
+amount=int(input("enter a amount"))
+
+g=amount*0.05
+amount+=g
+print("your product name:",product,"amount of product",amount)'''
+#average wt of 5 person
+'''p1=float(input("enter a wt of p1"))
+p2=float(input("enter a wt of p2"))
+p3=float(input("enter a wt of p3"))
+p4=float(input("enter a wt of p4"))
+p5=float(input("enter a wt of p5"))
+average=(p1+p2+p3+p4+p5)/5
+print("average wt",average)'''
+
+'''p1=int(input("enter a wt of p1"))
+p2=int(input("enter a wt of p2"))
+p3=int(input("enter a wt of p3"))
+average=float(p1+p2+p3)/3
+print("average wt",average)'''
+#check even no.using bitwise operators
+'''a=8
+if ((a&1)==0):
+    print("a is even no.")
+else:
+    print("odd number")'''
+'''b=int(input("enter a number"))
+if ((b&1)==1):
+    print("b is odd no.",b)
+else:
+    print("even no.")'''
+#check even /odd using modules(reminder)
+'''c=int(input("enter a number"))
+if ((c%2)==1):
+    print("odd number")
+else:
+     print("even number")'''
+#square and cube for Q
+'''q=3
+print (q**2)
+print(q**3)
+#sqaure value of middle number
+a=54623
+b=(a%1000)//100
+print(b)
+print(b**2)'''
+#comparision of two numbers
+'''a=99
+b=7
+if(a==b):
+    print("equal")
+else:
+    print("not equal")
+#12 Q
+if(a>b):
+    print("true")
+else:
+    print("false")
+ #13 Q   
+if(b>50):
+    print("b is greater than 50")
+else:
+    print("b is less than 50")
+#14 Q
+if(a>=b):
+    print("equal")
+else:
+    print("not equal")'''
+
+#number exists in list ?
+'''a=[1,2,3,4,5]
+print(10 in a)'''
+# compound interest
+'''P=55000
+r=0.03
+n=6 
+t=20 
+A=P*(1+r/n)**(n*t)
+
+print("compound interest",A)
+#exist number -membership operators
+a=[2,3,4,5,6,7]
+print(2 in a)
+#two varibales-identity operators
+a=[2,3,4,5,6,7]
+b=[2,3,4,5,6,7]
+print(a is b)
+print(a==b)
+print(a is not b)
+#20 q
+a=00
+b=a
+print(a is not b)
+#21 q-BMI calculator
+
+weight=int(input("enter your weight in kg: "))
+height=int(input("enter your height in cm: "))
+BMI=weight/(height/100)**2
+print("BMI value",BMI)
+#24 q
+
+l=55
+b=30
+h=60
+c=l*b*h
+print("volume of cuboid",c)
+#25
+D=100
+T=15
+S=D/T
+print(S)
+
+       
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
