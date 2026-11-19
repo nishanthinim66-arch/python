@@ -1,0 +1,14 @@
+#task 4
+# List Tasks
+a=["bala","hema","mayoo","keerthi","bharath"]
+print(a)
+a.append("vengi")
+print(a)
+a.remove("bharath")
+print(a)
+for i in a:
+    print(a)
+a=[1,2,3,4,5,61,999]
+for i in a:
+    print(i,end=" ")
+#5.
