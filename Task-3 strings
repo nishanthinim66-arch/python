@@ -1,0 +1,64 @@
+    
+#task 3
+#1.check the string how many times the character is printed in the string
+n="i slit the sheet"
+print(n.count("s"))
+
+a=input("enter a word")
+ch=input("enter a letter")
+c=0
+for i in a:
+    if i==ch:
+        c+=1
+print(c)
+#2.count no of vowels in the given string and display it
+word="computer"
+e="aeiou"
+count=0
+for i in word:
+    if i in e:
+         count+=1
+print(count)
+#1.
+s=input("enter a lette")
+e=input("enter a letter")
+count=0
+for i in s:
+    if e==i:
+        count+=1
+print(count)
+
+#2.
+s="computer"
+e="aeiou"
+c=0
+for i in s:
+    if i in e:
+        c+=1
+print(c)
+#3.Write a program to get input in a string ,convert
+n="live wire institute in salem"
+u=n.upper().split()
+print(u)
+for i in u:
+    print(i)
+
+#4.Define a function to accept string input and print it reverse and
+#to find no.of.vowels in the string
+n=input("enter a letter")
+e="aeiou" 
+c=0
+for i in n:
+    if i in e:
+        c+=1
+print(c)
+print(n[::-1])
+#5.Write a program to input a sentence and print the number of characters
+#found in the longest word of the given sentence
+n=input("enter a word")
+print(n.len)
+chr=0
+for i in n:
+    if i in e:
+        chr+=1
+print(c)
