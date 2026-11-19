@@ -90,3 +90,10 @@ if a**3>=100:
     print("above")
 else:
     print("below")
+#11
+username=input("enter your name")
+password=int(input("enter your password"))
+if username=="nisha"and password==12345:
+    print("login sucessful")
+else:
+    print("invalid login")
