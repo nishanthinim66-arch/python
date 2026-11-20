@@ -1,0 +1,11 @@
+import time
+print(time.time())
+print(time.ctime())
+print(time.localtime())
+print(time.gmtime())
+print(time.sleep(5))
+print(time.asctime())
+print(time.strftime("%d-%m-%Y"))#strings to format
+print(time.strptime("20 nov 2026","%d %b %Y"))#format to strings
+print(time.perf_counter())#execution time
+
