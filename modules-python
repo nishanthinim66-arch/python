@@ -1,0 +1,27 @@
+import math
+'''print(math.pi)
+print(math.e)
+print(math.tau)
+print(math.inf)
+print(math.nan)
+
+print(math.sqrt(100))
+print(math.pow(6,3))
+print(math.fabs(-6))
+print(math.factorial(6))
+print(math.gcd(33,9))
+print(math.lcm(33,9))
+
+print(math.ceil(5.99))
+print(math.floor(5.99))
+print(math.trunc(5.99))
+#print(math.round(5.9999,1))
+print(math.sin(math.pi/2))
+print(math.cos(0))
+print(math.tan(math.pi/4))
+print(math.asin(1))
+print(math.acos(1))
+print(math.atan(1))'''
+
+print(math.radians(360))
+print(math.degrees(math.pi))
