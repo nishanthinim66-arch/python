@@ -1,0 +1,17 @@
+import datetime as d
+print(d.datetime.now())
+print(d.datetime.today())
+print(d.datetime.now().date())
+print(d.datetime.now().time())
+print(d.datetime.now().strftime("%d-%m-%Y"))
+print(d.datetime.strptime("20 nov 2026","%d %b %Y"))
+
+print(d.datetime.now().timestamp())
+print(d.datetime.now().weekday())
+print(d.datetime.now().replace(year=2050))
+
+import datetime
+
+# Show current date and time
+print(datetime.datetime.now())
+
