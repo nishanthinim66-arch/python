@@ -1,0 +1,4 @@
+#import webbrowser as wb
+#wb.open("https://www.cisco.com")
+#wb.open_new("https://www.netflix.com")
+#wb.open_new_tab("http://google.com")
