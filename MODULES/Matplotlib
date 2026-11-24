@@ -1,0 +1,38 @@
+#plot
+import matplotlib.pyplot as plt
+x=[1,2,3,4]
+y=[10,20,30,40]
+plt.plot(x,y,marker="*",color="green")
+plt.xlabel("X Axis")
+plt.ylabel("Y Axis")
+plt.show()
+
+#bar
+import matplotlib.pyplot as plt
+products=["cosmetics","groceries","sports","kitchen items"]
+sales=[10,20,30,60]
+plt.bar(products,sales)
+plt.title("product sales")
+plt.xlabel("product")
+plt.ylabel("sales(k)")
+plt.show()
+
+#histogram
+import matplotlib.pyplot as plt
+import numpy as np
+data=np.random.randn(1000)
+plt.hist(data,bins=30,color='skyblue',edgecolor='black')
+plt.title("Histogram")
+plt.xlabel("value")
+plt.ylabel("Frequency")
+plt.show()
+
+#scatters
+import matplotlib.pyplot as plt
+x=[1,2,3,4,5,6]
+y=[2,4,1,8,7,9]
+plt.scatter(x,y)
+plt.title("scatter plot")
+plt.xlabel("x values")
+plt.ylabel("y values")
+plt.show()
